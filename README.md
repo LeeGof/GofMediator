@@ -1,4 +1,4 @@
-# GofMediator
+# 基于中间件的Target-Action实现组件化
 
 <p style="margin-left: 30px;">看了limboy和Casa的文章，关于组件化开发，整理了一下思路。</p>
 <h2>1.为什么要进行组件化开发？</h2>
