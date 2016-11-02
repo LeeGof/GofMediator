@@ -25,6 +25,18 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor greenColor];
+    [self testMethod];
+}
+
+- (void)testMethod
+{
+    for (int i = 0; i < 100000; i++)
+    {
+        NSFileManager *fileManager = [NSFileManager defaultManager];
+        BOOL isExist = [fileManager fileExistsAtPath:@"document"];
+        
+        NSLog(@"%d", isExist);
+    }
 }
 
 @end

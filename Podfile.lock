@@ -1,0 +1,14 @@
+PODS:
+  - GofShakeAndEmail (1.0.2)
+
+DEPENDENCIES:
+  - GofShakeAndEmail (from `~/Desktop/Source/GitHub/GofShakeAndEmail`)
+
+EXTERNAL SOURCES:
+  GofShakeAndEmail:
+    :path: ~/Desktop/Source/GitHub/GofShakeAndEmail
+
+SPEC CHECKSUMS:
+  GofShakeAndEmail: 5e2347ad78bc66605557e621e9829b454c09611f
+
+COCOAPODS: 0.39.0
