@@ -71,6 +71,9 @@ NSString * const kMediatorSwiftModuleNameKey = @"kMediatorSwiftModuleNameKey";
     
     // 获取 action
     NSString *actionString = [NSString stringWithFormat:@"action_%@", actionName];
+    if ([params allKeys].count > 0 && ![actionString hasSuffix:@":"]) {
+        actionString = [actionString stringByAppendingString:@":"];
+    }
     SEL action = NSSelectorFromString(actionString);
     
     if (target == nil) {  //无响应类
