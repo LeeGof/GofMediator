@@ -1,1 +1,0 @@
-../../../../../Source/GitHub/GofShakeAndEmail/GofShakeAndEmail/GofShakeAndEmail/UIViewController+GofShakeAndEmail.h

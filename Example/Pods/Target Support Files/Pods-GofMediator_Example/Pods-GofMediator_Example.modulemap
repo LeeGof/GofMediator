@@ -1,0 +1,6 @@
+framework module Pods_GofMediator_Example {
+  umbrella header "Pods-GofMediator_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
